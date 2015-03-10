@@ -8,8 +8,29 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MyNavCtr : UINavigationController
+
+@end
+
+@interface BaseViewController : UIViewController
+
+@end
+
+
+@interface ViewController : BaseViewController
 
 
 @end
 
+
+@interface BaseTableViewController : UITableViewController
+
+@end
+
+@interface LandscapeTableViewController : BaseTableViewController
+
+@end
+
+@interface PortraitTableViewController : BaseTableViewController
+
+@end
